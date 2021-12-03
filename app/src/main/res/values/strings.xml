@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AppDemo</string>
+    <string name="text_page">Log in </string>
+    <string name="hint_username">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="btn_text">Login</string>
+    <string name="text_already_account">Already Have a account ? </string>
+    <string name="text_login">Login </string>
+    <string name="text_no_account">No account ? </string>
+    <string name="text_register">Register</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">QR Code</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_POST_API">Post API</string>
+    <string name="menu_GET_API">Get API</string>
+    <string name="menu_GET_API_retrofit">Get API Retrofit</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_api">API</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_navigation">Open Navigation drawer</string>
+    <string name="close_navigation">Close Navigation Drawer</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

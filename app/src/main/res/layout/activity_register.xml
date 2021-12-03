@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegister.Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_register"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:id="@+id/registertxt"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edtname"
+            android:layout_below="@id/registertxt"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/teal_700"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Full Name"
+            android:drawableRight="@drawable/ic_baseline_person_24"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/emailedt"
+            android:layout_below="@+id/edtname"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/teal_700"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email ID"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edtuser"
+            android:layout_below="@+id/emailedt"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/teal_700"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableRight="@drawable/ic_baseline_person_24"
+            android:hint="Username"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edtpassword"
+            android:layout_below="@+id/edtuser"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="@color/teal_700"
+            android:layout_marginRight="30dp"
+            android:hint=" Password"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/edtrpassword"
+            android:layout_below="@+id/edtpassword"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:hint=" Re-Enter Password"
+            android:textColorHint="@color/teal_700"
+            android:drawableRight="@drawable/ic_baseline_lock_reset_24"
+            android:inputType="textPassword"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register "
+            android:layout_below="@id/edtrpassword"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="140dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/btnsubmit"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtacc"
+            android:layout_below="@id/btnsubmit"
+            android:text="@string/text_already_account"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtlogin"
+            android:layout_below="@id/btnsubmit"
+            android:text="@string/text_login"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="180dp"
+            />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

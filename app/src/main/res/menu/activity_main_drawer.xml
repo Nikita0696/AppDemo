@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_qr_code_24"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_baseline_pin_drop_24"
+            android:title="@string/menu_map" />
+        <item
+            android:id="@+id/nav_api"
+            android:icon="@drawable/ic_baseline_api_24"
+            android:title="@string/menu_api" />
+        <item
+            android:id="@+id/nav_postapi"
+            android:icon="@drawable/ic_baseline_api_24"
+            android:title="@string/menu_POST_API" />
+        <item
+            android:id="@+id/nav_get_api"
+            android:icon="@drawable/ic_baseline_api_24"
+            android:title="@string/menu_GET_API" />
+        <item
+            android:id="@+id/nav_get_api_retrofit"
+            android:icon="@drawable/ic_baseline_api_24"
+            android:title="@string/menu_GET_API_retrofit" />
+    </group>
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.appdemo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.appdemo.FragmentsPage.FragementGallery"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_fragement_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.appdemo.FragmentsPage.FragmntScanQR"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_fragmnt_scan_q_r" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.appdemo.FragmentsPage.MapsFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.example.appdemo.FragmentsPage.FragmentCamera"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_api"
+        android:name="com.example.appdemo.ApiCalling.GetApiCalling"
+        android:label="@string/menu_api"
+        tools:layout="@layout/fragment_get_api_calling" />
+
+    <fragment
+        android:id="@+id/nav_postapi"
+        android:name="com.example.appdemo.PostApiCalling.PostAPICalling"
+        android:label="@string/menu_POST_API"
+        tools:layout="@layout/fragment_post_a_p_i_calling" />
+    <fragment
+        android:id="@+id/nav_get_api"
+        android:name="com.example.appdemo.GetAPIVolley.GetApiCallingVolley"
+        android:label="@string/menu_GET_API"
+        tools:layout="@layout/fragment_get_api_calling" />
+    <fragment
+        android:id="@+id/nav_get_api_retrofit"
+        android:name="com.example.appdemo.GetAPIRetrofit.GetAPICallingRetrofit"
+        android:label="@string/menu_GET_API_retrofit"
+        tools:layout="@layout/fragment_get_a_p_i_calling_retrofit" />
+
+
+</navigation>
